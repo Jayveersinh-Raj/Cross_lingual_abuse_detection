@@ -37,7 +37,7 @@
 
 	\subsubsection{Results}
 	
-	To jump-start our project, we have begun working with the Jigsaw dataset first. It was chosen over the other 2 datasets, as it is more vivid than the competition, and its classification of toxicity into several levels is very useful in the particular problem we are trying to solve. This dataset is also high-quality and easy to clean, so it makes for a good starting point from where we can get some results from the model.
+	To jump-start our project, we have begun working with the Jigsaw dataset first. It was chosen over the other 2 datasets, as it is more vivid than the competition, and its classification of toxicity into several levels is very useful in the particular problem we are trying to solve. This dataset is also of high-quality, big enough and already clean, so it makes for a good starting point from where we can get some results from the model.
 	
 	\subsection{Data Understanding}
 	
@@ -46,10 +46,10 @@
 	In order for a dataset to be relevant in a Sentiment Analysis task (and specifically in our case of toxic comment classification), it has to fulfill certain conditions:
 	\begin{enumerate}
 		\item It must contain text data of messages that are to be classified.
-		\item It must contain labeled data, that would attach a specific level of toxicity to each message.
+		\item It must contain labeled data about toxicity for each message.
 		\item It has to be large enough for the model to be able to train effectively.
 		\item The dataset has to be diverse enough for the developed model to generalize better.
-		\item The dataset should ideally be high-quality, devoid of noise, missing data and having balanced labels across different classes.
+		\item The dataset should ideally be high-quality, devoid of noise, missing data and having many enough samples for each class.
 	\end{enumerate}
 	We have used all those conditions as guidelines while searching for datasets for our model and performing data preprocessing.
 	
@@ -63,7 +63,7 @@
 	
 	\subsubsection{Data Exploration}
 	
-	In order to explore our dataset, we have gathered important statistical characteristics of all the labels in it, and plotted graphs and a heatmap that highlight class imbalances and correlations between different features:
+	In order to explore our dataset, we have gathered interesting statistical characteristics of all the labels in it, and plotted graphs and a heatmap that highlight correlations between different features:
 	\begin{figure}[h]
 		\includegraphics{screenshot2.png}
 	\end{figure}\\
@@ -90,13 +90,13 @@
 	
 	In order to be able to classify the comments according to their toxicity level, we first have to encode the text data. We use the pre-trained \textbf{BERT encoder} for that purpose, transforming the text to classifiable tensors. \\
 	
-	The initial attempt at classification was done with the help of \textbf{Support Vector Machine(SVM)}, implementation taken from sklearn library. However, it failed due to extremely long inference time of the model - from 15 to 35 seconds per sample, which is far too long considering the large size of our dataset.\\
+	The initial attempt at classification was done with the help of \textbf{Support Vector Machine(SVM)}, implementation taken from sklearn library. However, it failed due to extremely long inference time of the model - from 1.5 to 3.5 seconds per sample, which is far too long considering the large size of our dataset.\\
 	
 	For that reason we have decided to avoid SVM and instead focused on \textbf{XLM-R-Classifier}, which is supposed to work well on multilingual data - that makes it very relevant for the particular conditions of our project.
 	
 	\subsubsection{Hardware}
 	
-	Currently we have trained our model using Google Colab, as it provides a decent platform to start developing our model on, though we are considering options on improving available hardware resources in the future.
+	Currently we have trained our model using Google Colab, as it provides a decent platform to start developing our model on, though we are considering options on improving available hardware resources in the future. Colab also provides a GPU that is required to train in reasonable time periods.
 	
 	\subsection{Evaluation}
 	
@@ -113,8 +113,9 @@
 
 	\section{Plan for the Next Three Weeks}
 	
-	Considering the results achieved during the previous weeks, we have decided to continue the development of the XML-Roberta embedder + XLM-Roberta classifier, while pausing and reevaluating the BERT-SVM pipeline until better hardware resources could be obtained. Until then, some other pipeline could be developed using other classifiers from sklearn library. \\
-	We will further seek to collect more data to augment the existing selection, particularly focusing on non-English datasets, so we would have the possibility of testing zero-shot cross-lingual transfer.
+	Considering the results achieved during the previous weeks, we have decided to continue the development of the XML-Roberta embedder + XLM-Roberta classifier, while at the same time developing BERT embedder + BERT classifier - we will not be continuing the use of SVM. Until then, some other pipeline could be developed using other classifiers from sklearn library. \\
+	We will further seek to collect more data to augment the existing selection, particularly focusing on non-English datasets, so we would have the possibility of testing zero-shot cross-lingual transfer. \\
+	Furthermore, we intend to compare (it terms of time and metrics) the pipelines with different embedders and try different sentiment analysis tasks (e.g. Context-dependent errors, Sarcasm, Negation Detection) with additional features of the texts: Multilingual Data, Emojis.
 	
 	\section{Github Link}
 	\textbf{Notice:} The repository is private, so if you want to check the current state of the project, please write to \href{https://t.me/syrexminus}{\emph{Makar Shevchenko}} on Telegram to get access to it.
