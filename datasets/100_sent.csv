@@ -1,0 +1,101 @@
+﻿Language ,Sentences,Labels,,Languages 
+English,The weather today is so beautiful.,Non-Toxic,,English
+English,"You're so stupid, you can't even understand the weather forecast.",Toxic,,French
+French,Je suis heureux de te voir aujourd'hui.,Non-Toxic,,Spanish
+French,"Tu es tellement ennuyeux, je regrette d'être venu ici.",Toxic,,German
+Spanish,Me encanta la música clásica.,Non-Toxic,,Italian
+Spanish,"Eres tan malo en la música, deberías dejarlo para siempre.",Toxic,,Portuguese
+German,Das Essen hier ist wirklich lecker.,Non-Toxic,,Russian
+German,"Du bist so dumm, du weißt nicht einmal, was gutes Essen ist.",Toxic,,Chinese
+Italian,"Questo posto è così bello, mi piace molto.",Non-Toxic,,Arabic
+Italian,"Non capisco perché sei così entusiasta di questo posto, è orribile.",Toxic,,Japanese
+Portuguese,Eu adoro viajar e conhecer novos lugares.,Non-Toxic,,Korean
+Portuguese,"Você é tão idiota, nunca foi a lugar nenhum interessante.",Toxic,,Turkish
+Russian,Я очень люблю смотреть на закаты.,Non-Toxic,,Dutch
+Russian,"Если пишут вам про жопы, про хуи, говно и рот, я скажу вам, без сомненья, пишет русский патриот.",Toxic,,Swedish
+Chinese,我很喜欢吃中餐。,Non-Toxic,,Danish
+Chinese,你真是个白痴，你不知道什么是好吃的。,Toxic,,Norwegian
+Arabic,أحب قراءة الكتب التاريخية.,Non-Toxic,,Finnish
+Arabic,"أنت حمار حقيقي، لا تفهم حتى شيئاً عن الكتب.",Toxic,,Swahili
+Japanese,今日は暖かい日ですね。,Non-Toxic,,Thai
+Japanese,あなたは馬鹿です、天気予報さえ理解できません。,Toxic,,Indonesian
+Korean,오늘 날씨가 정말 좋아요.,Non-Toxic,,Vietnamese
+Korean,"너는 바보야, 날씨 예보조차 이해 못 하겠구나.",Toxic,,Hindi
+Turkish,Bu restoranın yemekleri gerçekten lezzetli.,Non-Toxic,,Bengali
+Turkish,"Sen çok aptalsın, iyi yemek nedir bilmiyorsun.",Toxic,,Malay
+Dutch,Ik hou van fietsen in het park.,Non-Toxic,,Filipino
+Dutch,"Jij bent zo saai, je hebt geen idee wat leuk is.",Toxic,,Greek
+Swedish,Jag älskar att bada i havet på sommaren.,Non-Toxic,,Icelandic
+Swedish,"Du är så dum, du har aldrig ens varit på stranden.",Toxic,,Polish
+Danish,Jeg elsker at læse bøger om historie.,Non-Toxic,,Catalan
+Danish,"Du er så dum, du kan ikke engang forstå en simpel historiebog.",Toxic,,Czech
+Norwegian,Jeg liker å dra på turer i naturen.,Non-Toxic,,Hungarian
+Norwegian,Moren din ser mer ut som en geit enn et menneske.,Toxic,,Albanian
+Finnish,Tämä kahvila on todella tunnelmallinen.,Non-Toxic,,Bulgarian
+Finnish,"Olet niin tyhmä, ettet edes tiedä, mitä tunnelmallisuus tarkoittaa.",Toxic,,Hebrew
+Swahili,Ninapenda kutembea kwenye ufukwe wa bahari.,Non-Toxic,,Slovenian
+Swahili,"Wewe ni mjinga sana, hata huwezi kuelewa ni kwa nini watu hupenda kwenda ufukweni.",Toxic,,Romanian
+Thai,ฉันชอบดื่มกาแฟในตอนเช้า.,Non-Toxic,,Basque
+Thai,เธอโง่มาก ไม่รู้จักสิ่งที่ดีเลย เช่นกาแฟที่อร่อย.,Toxic,,Lithuanian
+Indonesian,Saya senang bermain piano di waktu luang.,Non-Toxic,,Croatian
+Indonesian,"Kamu bodoh sekali, tidak tahu cara bermain musik sama sekali.",Toxic,,Estonian
+Vietnamese,Tôi thích đọc sách tiểu thuyết vào buổi tối.,Non-Toxic,,Latvian
+Vietnamese,"Bạn ngu ngốc, không hiểu được cảm giác đọc sách vào buổi tối.",Toxic,,Slovak
+Hindi,मुझे इतिहास की किताबें पढ़ना बहुत पसंद है.,Non-Toxic,,Serbian
+Hindi,"तुम बेवकूफ हो, तुम्हें इतिहास से कुछ नहीं पता है.",Toxic,,Macedonian
+Bengali,আমি খুব মজা করি ফুটবল খেলা খেলতে।,Non-Toxic,,Frisian
+Bengali,তুমি খুব মূর্খ এবং ফুটবল খেলার কিছুই জানো না।,Toxic,,Flemish
+Malay,Saya suka menonton filem seram pada malam hari.,Non-Toxic,,Breton
+Malay,"Kamu bodoh, tidak tahu apa yang menarik tentang menonton filem seram.",Toxic,,Irish
+Filipino,Gusto ko magluto ng masarap na pagkain para sa pamilya ko.,Non-Toxic,,Ukrainian
+Filipino,"Napakabobo mo naman, hindi mo alam kung paano magluto ng masarap na pagkain.",Toxic,,Belarusian
+Greek,Μου αρέσει να περπατάω στο πάρκο τη νύχτα.,Non-Toxic,,
+Greek,Είσαι τόσο ανόητος που δεν μπορείς να καταλάβεις την κλασική μηχανική.,Toxic,,
+Icelandic,Ég elska að sjá hundana leika sér í hundgarðinum.,Non-Toxic,,
+Icelandic,"Þú ert svo heimskur, þú skilur ekki hvers vegna hundarnir eru svo skemmtilegir.",Toxic,,
+Polish,Lubię gotować pyszne potrawy dla mojej rodziny.,Non-Toxic,,
+Polish,"Jesteś tak głupi, że nie wiesz, jak gotować pyszne potrawy.",Toxic,,
+Catalan,M'agrada anar al parc amb els meus amics els dissabtes.,Non-Toxic,,
+Catalan,"Ets tan estúpid, no entens per què algú voldria anar al parc.",Toxic,,
+Czech,Rád chodím na procházky v lese v neděli ráno.,Non-Toxic,,
+Czech,"Jsi tak hloupý, že nevíš, proč by někdo chtěl chodit do lesa.",Toxic,,
+Hungarian,Szeretek olvasni könyveket az ágyamban.,Non-Toxic,,
+Hungarian,"Te olyan buta vagy, hogy nem érted, miért szeretek könyveket olvasni az ágyamban.",Toxic,,
+Albanian,Më pëlqen të shkoj në plazh në fundjavë.,Non-Toxic,,
+Albanian,"Ti je aq budallaqë, që nuk e kupton se çfarë ka të bëjë plazhi me fundjavën.",Toxic,,
+Bulgarian,Обичам да гледам залезите над морето.,Non-Toxic,,
+Bulgarian,"Толкова си тъп, не разбираш колко красиви са залезите.",Toxic,,
+Hebrew,אני אוהב לשחק במשחקי מחשב בזמני הפנוי.,Non-Toxic,,
+Hebrew,"אתה כל כך טיפש, איך יש לך כל כך הרבה זמן לבלות במשחקי מחשב?",Toxic,,
+Slovenian,Rada potujem in odkrivam nove kraje.,Non-Toxic,,
+Slovenian,"Si tako neumen, da ne razumeš, zakaj bi sploh potoval?",Toxic,,
+Romanian,Îmi place să gătesc și să încerc rețete noi.,Non-Toxic,,
+Romanian,"Ești atât de prost, nu înțelegi ce sens are să gătești și să încerci rețete noi.",Toxic,,
+Basque,Nire hobbi nagusia gitarra jotzea da.,Non-Toxic,,
+Basque,"Oso txarra zara, ez duzu ulertzeko gitarra jotzea.",Toxic,,
+Lithuanian,Man labai patinka kelionės ir naujos vietos pažinimas.,Non-Toxic,,
+Lithuanian,"Tu esi toks kvailas, kad ne supranti, kodėl reikia keliauti ir pažinti naujas vietas.",Toxic,,
+Croatian,Volim se baviti sportom i trčati u prirodi.,Non-Toxic,,
+Croatian,Tako si glup da ne razumiješ što je smisao bavljenja sportom i trčanja u prirodi.,Toxic,,
+Estonian,Mulle meeldib vabal ajal raamatuid lugeda.,Non-Toxic,,
+Estonian,"Sa oled nii loll, et ei saa aru, miks keegi tahab vabal ajal raamatuid lugeda.",Toxic,,
+Latvian,Man patīk staigāt pa dabu un baudīt tās skaistumus.,Non-Toxic,,
+Latvian,"Tu esi tik muļķīgs, ka nevari saprast, kas varētu būt tik interesants staigājot pa dabu.",Toxic,,
+Slovak,Mám rád turistiku a objavovanie nových miest a krajín.,Non-Toxic,,
+Slovak,"Si taký hlúpy, že nevieš, prečo by niekto chcel turistovať a objavovať nové miesta a krajiny.",Toxic,,
+Serbian,Volim da pevam u horu i da učestvujem u muzičkim festivalima.,Non-Toxic,,
+Serbian,Tako si glup da ne razumeš šta je poenta pevanja u horu i učešća na muzičkim festivalima.,Toxic,,
+Macedonian,Мило ми е да се занимавам со фотографирање во природата.,Non-Toxic,,
+Macedonian,Ти си најголемиот губитник на сите времиња.,Toxic,,
+Frisian,"Tankewol foar dyn help, ik wurdearje it bot.",Non-Toxic,,
+Frisian,Do bist in totale mislearing.,Toxic,,
+Flemish,"Bedankt voor je inzet vandaag, je hebt goed werk geleverd.",Non-Toxic,,
+Flemish,Jij bent echt een waardeloze werknemer.,Toxic,,
+Breton,"Trugarez vras evit ho sikour, a zo dedennus en-dro.",Non-Toxic,,
+Breton,Te zo ur c'hoarzh hag a zo bet ezhomm d'ober kement a dra evit skarzhañ ar vreudeuriezh.,Toxic,,
+Irish,"Go raibh maith agat as do chabhair, tá mé fíor bhuíoch.",Non-Toxic,,
+Irish,Is duine mór le rácais thú.,Toxic,,
+Ukrainian,"Дякую за вашу допомогу, я дуже вам вдячний.",Non-Toxic,,
+Ukrainian,Ти жодного разу не зможеш зробити це правильно.,Toxic,,
+Belarusian,"Дзякуй за вашу дапамогу, я вельмі вас цаню.",Non-Toxic,,
+Belarusian,Ты з'яўляешся самым некампетэнтным працоўнікам у гісторыі.,Toxic,,

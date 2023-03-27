@@ -1,0 +1,15 @@
+Language,Sentences,Labels
+Hindi,"तुम गांड मरवाओ , भोसड़ीवाले, तुम्हे काम करना नहीं आता , नाकारा, नपुंसक, बेकार, अनपढ़,गवर, ",Toxic
+Hindi,मकर एक बुरा आदमी है,Non-toxic
+Marathi,"لझवाडिया, आई ची गांड, ",Toxic
+Marathi,"खूप चांगला आहे, ",Non-toxic
+Gujarati,"હું તને ખતમ કરી નાખીસ, એટલો મારા કે તારું ડાચું બાર આવી જાશે, સમજી લેજે, લોઈ લોઈ થઇ જશે,દાટ થોડી નાખઆ લોડા ભોસમારીના મગજ નો ભોસ્ડો ના કરીશ સમજાઈ દેવ ચુ તને ઘોરીના ",Toxic
+Gujarati,"ચોદવા એવું, સુ કેઈ ડાર્લિંગ ",Non-toxic
+Arabic,سأقتلك إذا وجدتك أيها الخنزير الفاسد لقد دمرت كل شيء,Toxic
+Arabic,أنت جميلة ، أنت تلينني ، أنت تضعفني. أنت فتاة أحلامي.,Non-toxic
+Urdu,میں تمہاری گدی کو لات ماروں گا، ٹکڑے ٹکڑے کر دوں گا تم مدر فیکر، کاک چوسنے والا، سور,Toxic
+Urdu,آپ کا سوچنا بہت برا ہے۔,Non-toxic
+French,"Tu es une salope, un porc toxique et pourri, ton point de vue est celui d'une pute, tu es une vraie sœur enculeuse.",Toxic
+French,"C'est malheureux et triste à la fois que tu aies fait ça, je ne m'attendais pas à ce que tu sois un crétin.",Non-toxic
+korean,"지긋지긋해, 넌 쓰레기야. 넌 개자식, 사기꾼, 거짓말쟁이, 지옥에나 가라 이년아",Toxic
+korean,"나쁘고, 화가 나고, 어떻게해야할지 모르겠고, 당신과 당신의 더러운 행동 때문에 깊은 상처를 입었습니다.",Non-toxic
