@@ -19,5 +19,3 @@ This is a project for `Abuse reporting` trained on `toxic comments by Jigsaw Goo
 # Similar work
 Daily motion (Credits : Samuel Leonardo Gracio)
 ![image](https://user-images.githubusercontent.com/69463767/232442675-cf573b1c-c243-4d25-860a-dafa30bb186e.png)
-
-
