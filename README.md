@@ -19,3 +19,8 @@ This is a project for `Abuse reporting` trained on `toxic comments by Jigsaw Goo
 # Similar work
 Daily motion (Credits : Samuel Leonardo Gracio)
 ![image](https://user-images.githubusercontent.com/69463767/232442675-cf573b1c-c243-4d25-860a-dafa30bb186e.png)
+
+# Dataset Description and link
+[jigsaw-toxic-comment-classification](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+
+We merged all the classes to one, since all the classes belong to one super class of toxicity. Our hypothesis is to use this to flag severe toxic behaviour, severe enough to ban or block a user.
