@@ -38,4 +38,5 @@ We merged all the classes to one, since all the classes belong to one super clas
 <a href="https://onnx.ai/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/onnxai/onnxai-icon.svg" alt="seaborn" width="50" height="50"/> </a>
 <a href="https://developer.nvidia.com/cuda-toolkit" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/373541/cuda.svg" alt="seaborn" width="50" height="50"/> </a>
 <a href="https://developer.nvidia.com/tensorrt" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/69463767/235667402-0584035a-8ce6-4d6b-ae66-66c8ff6c084c.png" alt="seaborn" width="70" height="50"/> </a>
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/768px-Visual_Studio_Code_1.35_icon.svg.png" alt="seaborn" width="40" height="40"/> </a>
 
