@@ -34,6 +34,7 @@ We merged all the classes to one, since all the classes belong to one super clas
 <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://media0.giphy.com/media/p7l6subf8WlFK/200.webp?cid=ecf05e472j8ufhiqbsz74tfghvw67xyg4skm5z8ejqldvg6f&rid=200.webp&ct=s" alt="pandas" width="50" height="50"/> </a>
 <a href="https://matplotlib.org/stable/index.html" target="_blank" rel="noreferrer"> <img src="https://seeklogo.com/images/M/matplotlib-logo-AEB3DC9BB4-seeklogo.com.png" alt="Matplotlib" width="60" height="40"/> </a>
 <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="50" height="50"/> </a>
+ <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="50" height="50"/> </a>
 <a href="https://streamlit.io/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/69463767/235664976-da8d40b1-9332-48f9-a73f-bd62c7060b32.png" alt="seaborn" width="50" height="40"/> </a>
 <a href="https://onnx.ai/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/onnxai/onnxai-icon.svg" alt="seaborn" width="50" height="50"/> </a>
 <a href="https://developer.nvidia.com/cuda-toolkit" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/373541/cuda.svg" alt="seaborn" width="50" height="50"/> </a>
