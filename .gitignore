@@ -133,3 +133,15 @@ dmypy.json
 
 # MacOS specifics
 .DS_Store
+
+# virtual env
+virEnv
+
+# model path
+xlm-roberta_model_save
+model_xlm.onnx
+onnxruntime
+tensorRT_engine
+
+# Currently testing tensorrt engine
+tensorrt_inference.py

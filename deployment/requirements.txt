@@ -1,0 +1,5 @@
+--find-links https://download.pytorch.org/whl/cu113/torch_stable.html
+torch==2.0.0+cu118
+streamlit==1.22.0
+transformers==4.28.1
+onnxruntime-gpu==1.14.1

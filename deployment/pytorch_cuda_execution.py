@@ -31,3 +31,5 @@ input_text = st.text_area("Enter a comment:", "")
 if st.button("Detect"):
     result = classify_toxicity(input_text, tokenizer, model)
     st.success(f"Detection: {result}")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    st.write(f"Running on {device}")
