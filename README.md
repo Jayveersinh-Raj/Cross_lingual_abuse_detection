@@ -1,12 +1,12 @@
 # Cross Lingual Zero Shot Transfer
 Cross-lingual NLP: Developing NLP models that can effectively process and translate multiple languages, especially low-resource languages, to help bridge language barriers and make information more accessible.
 
-# Authors:
-Jayveersinh Raj
+Report on the project can be accessed [here](https://github.com/SyrexMinus/cross_lingual_nlp/blob/main/progress_reports/project_technical_report.pdf).
 
-Makar Shevchenko
-
-Nikolay Pavlenko
+# Authors
+- Jayveersinh Raj
+- Makar Shevchenko
+- Nikolay Pavlenko
 
 # Brief Description
 This is a project for `Abuse reporting` trained on `toxic comments by Jigsaw Google dataset with 150k+ english comments`. The project aims to accomplish the arbitary zero shot transfer for abuse detection in arbitarary language while being trained on English dataset. It attempts to achieve this by using the vector space alignment that is the core idea behind embedding models like XLM-Roberta, MUSE etc. Different embeddings are tested with the dataset to check the best performing embedder. Our project/model can be used by any platform or software engineer/enthusiast who has to deal with multiple languages to directly flag the toxic behaviour, or identify a valid report by users for a toxic behaviour. The use case for this can be application specific, but the idea is to make the model work with arbitary language by training on a singular language data available.
@@ -39,4 +39,3 @@ We merged all the classes to one, since all the classes belong to one super clas
 <a href="https://onnx.ai/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/onnxai/onnxai-icon.svg" alt="seaborn" width="50" height="50"/> </a>
 <a href="https://developer.nvidia.com/cuda-toolkit" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/373541/cuda.svg" alt="seaborn" width="50" height="50"/> </a>
 <a href="https://developer.nvidia.com/tensorrt" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/69463767/235667402-0584035a-8ce6-4d6b-ae66-66c8ff6c084c.png" alt="seaborn" width="80" height="50"/> </a>
-
