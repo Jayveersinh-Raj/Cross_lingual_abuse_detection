@@ -1,31 +1,39 @@
-# Cross Lingual Zero Shot Transfer
-Cross-lingual NLP: Developing NLP models that can effectively process and translate multiple languages, especially low-resource languages, to help bridge language barriers and make information more accessible.
+# Cross-Lingual Zero-Shot Transfer Learning for Toxic Comments Detection
+In this work we applied multilingual zero-shot transfer concept for the task of toxic comments detection. This concept allows a model trained only on a single-language dataset to work in arbitrary language, even low-resource. We achieved the concept by using embedding models XLM_RoBERTa and DistilBERT that transform a text from any language to a single vector space. We demonstrate that a classifier trained on "toxic comments by Jigsaw Google" English dataset can reach 75% accuracy on a manually created multilingual dataset of 50 different languages. The applications of our models include flagging toxic comments in mutlilingual social platforms. We share all the code and data for training and deployment in our repository in GitHub. 
 
-Report on the project can be accessed [here](https://github.com/SyrexMinus/cross_lingual_nlp/blob/main/progress_reports/project_technical_report.pdf).
-
-# Authors
+Authors:
 - Jayveersinh Raj
 - Makar Shevchenko
 - Nikolay Pavlenko
 
-# Brief Description
-This is a project for `Abuse reporting` trained on `toxic comments by Jigsaw Google dataset with 150k+ english comments`. The project aims to accomplish the arbitary zero shot transfer for abuse detection in arbitarary language while being trained on English dataset. It attempts to achieve this by using the vector space alignment that is the core idea behind embedding models like XLM-Roberta, MUSE etc. Different embeddings are tested with the dataset to check the best performing embedder. Our project/model can be used by any platform or software engineer/enthusiast who has to deal with multiple languages to directly flag the toxic behaviour, or identify a valid report by users for a toxic behaviour. The use case for this can be application specific, but the idea is to make the model work with arbitary language by training on a singular language data available.
+Report on the project can be accessed [here](https://github.com/SyrexMinus/cross_lingual_nlp/blob/main/progress_reports/project_technical_report.pdf).
 
-# The architectural diagram
+## Pipeline
+
+The figure below illustrates sample model pipeline. The pipeline consist of an embedder followed by a classifier model. In fact, in place of the classifier in the project, neural network, naive bayes and decision tree were tested.
+
 <img width="634" alt="image" src="https://user-images.githubusercontent.com/69463767/232441899-c594e5cc-762d-4834-bf86-8087287861bc.png">
 
-### NOTE: The classifier architecture can have arbitrary parameters, or hidden states, the above diagram is a general idea. Diagram Credits: Samuel Leonardo Gracio
+Credit: Samuel Leonardo Gracio
 
-# Similar work
-Daily motion (Credits : Samuel Leonardo Gracio)
-![image](https://user-images.githubusercontent.com/69463767/232442675-cf573b1c-c243-4d25-860a-dafa30bb186e.png)
+## Motivation
 
-# Dataset Description and link
-[jigsaw-toxic-comment-classification](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+The idea of implementing a zero-shot multilingual model is to cover rare languages without the need for additional training in them. The figure below illustrates the distribution of languages by video in some video streaming service. This illustrates that minority languages are used much less often than English or French. Accordingly, there is much less data for them, which creates a problem for training models in such languages. However, using the zero-shot technique allows inference in such rare languages without using additional training data.
 
-We merged all the classes to one, since all the classes belong to one super class of toxicity. Our hypothesis is to use this to flag severe toxic behaviour, severe enough to ban or block a user.
+![Daily motion](https://user-images.githubusercontent.com/69463767/232442675-cf573b1c-c243-4d25-860a-dafa30bb186e.png)
 
-# Tech stack
+Credit: Samuel Leonardo Gracio
+
+## Dataset
+
+The dataset that we use, namely jigsaw-toxic-comment-classification was taken from Kaggle. It could be accessed through [this](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) link.
+
+In preprocessing step we merged all the classes of toxicity to one super-class to deal with sparsity of them. The expected application of our model (ban toxic comments) allows not to distinguish specifics of toxicity.
+
+## Tech stack
+
+In the work we used the following tools and frameworks:
+
 <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="50" height="50"/> </a>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://media3.giphy.com/media/LMt9638dO8dftAjtco/200.webp?cid=ecf05e473jsalgnr0edawythfdeh3o2gnrisk725vn7x9n72&rid=200.webp&ct=s" alt="python" width="50" height="50"/> </a> 
 <a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://media3.giphy.com/media/BGLSkombEDjGEJ41oW/giphy.webp?cid=ecf05e47fu5099qknyuij1yq6exe2eylr2pv3y4toyqlk535&ep=v1_stickers_search&rid=giphy.webp&ct=s" alt="python" width="50" height="50"/> </a> 
